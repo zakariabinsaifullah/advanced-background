@@ -1,0 +1,15 @@
+{
+  "name": "section-builder-block",
+  "version": "1.0.0",
+  "description": "A block for the section builder",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "Zakaria Binsaifullah",
+  "license": "ISC",
+  "dependencies": {
+    "@wordpress/scripts": "^27.8.0"
+  }
+}

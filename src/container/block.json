@@ -1,0 +1,148 @@
+{
+  "apiVersion": 2,
+  "name": "scbb/container",
+  "version": "0.1.0",
+  "title": "Container",
+  "category": "design",
+  "description": "Build a Reponsive Section",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "keywords": ["container", "section", "row", "column", "responsive"],
+  "attributes": {
+    "id": {
+      "type": "string"
+    },
+    "contentWidth": {
+      "type": "number",
+      "default": 1140
+    },
+    "unit": {
+      "type": "string",
+      "default": "px"
+    },
+    "paddingDevice": {
+      "type": "string",
+      "default": "desktop"
+    },
+    "deskPadding": {
+      "type": "object",
+      "default": {
+        "top": "100px",
+        "left": "15px",
+        "right": "15px",
+        "bottom": "100px"
+      }
+    },
+    "tabPadding": {
+      "type": "object",
+      "default": {
+        "top": "70px",
+        "left": "15px",
+        "right": "15px",
+        "bottom": "70px"
+      }
+    },
+    "mobPadding": {
+      "type": "object",
+      "default": {
+        "top": "50px",
+        "left": "10px",
+        "right": "10px",
+        "bottom": "50px"
+      }
+    },
+    "marginDevice": {
+      "type": "string",
+      "default": "desktop"
+    },
+    "deskMargin": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px"
+      }
+    },
+    "tabMargin": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px"
+      }
+    },
+    "mobMargin": {
+      "type": "object",
+      "default": {
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px"
+      }
+    },
+    "bgType": {
+      "type": "string"
+    },
+    "colorPopup": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#FE7E6D"
+    },
+    "bgGradient": {
+      "type": "string",
+      "default": "linear-gradient(135deg,#12c2e9 0%,#c471ed 50%,#f64f59 100%)"
+    },
+    "bgImage": {
+      "type": "string"
+    },
+    "bgImagePosition": {
+      "type": "object",
+      "default": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bgImageParallax": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgImageSize": {
+      "type": "string",
+      "default": "default"
+    },
+    "bgImageRepeat": {
+      "type": "string",
+      "default": "no-repeat"
+    },
+    "bgImageOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "overlayColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "overlayPopup": {
+      "type": "boolean",
+      "default": false
+    },
+    "overlayOpacity": {
+      "type": "number",
+      "default": 0.6
+    },
+    "bgVideo": {
+      "type": "string"
+    }
+  },
+  "textdomain": "section-builder-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

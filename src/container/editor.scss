@@ -1,0 +1,24 @@
+/*
+* Style Works for Editor Only
+*/
+.gut__devices {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.gut__devices .dashicons,
+.dashicons-before:before {
+	height: 16px !important;
+	width: 16px !important;
+	font-size: 16px !important;
+}
+
+.gut__margin {
+	margin: 16px 0 !important;
+}
+
+.gut__label {
+	font-size: 13px !important;
+	margin: 0 !important;
+}
